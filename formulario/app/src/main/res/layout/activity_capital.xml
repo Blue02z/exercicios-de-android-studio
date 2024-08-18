@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Tela2">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="386dp"
+        android:layout_height="325dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="37dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <RadioButton
+            android:id="@+id/rb12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Concordo totalmente" />
+
+        <RadioButton
+            android:id="@+id/rb22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Concordo" />
+
+        <RadioButton
+            android:id="@+id/rb32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="neutro" />
+
+        <RadioButton
+            android:id="@+id/rb42"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="discordo" />
+
+        <RadioButton
+            android:id="@+id/rb52"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="discordo totalmente" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Próximo" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="28dp"
+        android:text="Tenho situação financeira estável?"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
